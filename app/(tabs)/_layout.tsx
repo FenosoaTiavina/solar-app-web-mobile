@@ -40,7 +40,7 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="index"
                 options={{
-                    title: 'Dashboard',
+                    title: 'Tableau de bord',
                     headerShown: false,
                     tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
                 }}
@@ -48,7 +48,7 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="manage/index"
                 options={{
-                    title: 'Consumption',
+                    title: 'Consommation',
                     headerShown: false,
                     tabBarIcon: ({ color }) => <TabBarIcon name="power-off" color={color} />,
                 }}
@@ -57,11 +57,21 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="products/index"
                 options={{
-                    title: 'Products',
+                    title: 'Production',
                     headerShown: false,
                     tabBarIcon: ({ color }) => <TabBarIcon name="map" color={color} />,
                 }}
             />
+
+            <Tabs.Screen
+                name="products/compteur_setup"
+                options={{
+                    title: 'configuration',
+                    headerShown: false,
+                    tabBarIcon: ({ color }) => <TabBarIcon name="gears" color={color} />,
+                }}
+            />
+
         </Tabs>
     );
 }

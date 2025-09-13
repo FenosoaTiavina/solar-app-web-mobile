@@ -1,0 +1,22 @@
+data = {
+    "Panneau solaire": [
+        {"nom": "PM 50W", "ref_produit": "PS001", "prix": 1000000, "date_creation": "2025-09-01" , "stock": 10},
+        {"nom": "PM 100W", "ref_produit": "PS002", "prix": 2000000, "date_creation": "2025-09-02" , "stock": 20},
+        {"nom": "PM 150W", "ref_produit": "PS003", "prix": 2500000, "date_creation": "2025-09-03" , "stock": 30},
+        {"nom": "GM 200W", "ref_produit": "PS004", "prix": 3400000, "date_creation": "2025-09-04" , "stock": 5},
+        {"nom": "GM 250W", "ref_produit": "PS005", "prix": 4250000, "date_creation": "2025-09-05" , "stock": 10},
+        {"nom": "GM 300W", "ref_produit": "PS006", "prix": 4500000, "date_creation": "2025-09-06" , "stock": 13},
+        {"nom": "Premium 350W", "ref_produit": "PS007", "prix": 5550000, "date_creation": "2025-09-07" , "stock": 21},
+        {"nom": "Premium 400W", "ref_produit": "PS008", "prix": 6650000, "date_creation": "2025-09-08" , "stock": 8}
+    ],
+    "Batterie": [
+        {"nom": "Batterie 50Ah", "ref_produit": "BAT001", "prix": 350000, "date_creation": "2025-09-01", "stock": 12},
+        {"nom": "Batterie 70Ah", "ref_produit": "BAT002", "prix": 480000, "date_creation": "2025-09-02", "stock": 8},
+        {"nom": "Batterie 100Ah", "ref_produit": "BAT003", "prix": 500000, "date_creation": "2025-09-03", "stock": 14},
+        {"nom": "Batterie 120Ah", "ref_produit": "BAT004", "prix": 620000, "date_creation": "2025-09-04", "stock": 9},
+        {"nom": "Batterie 150Ah", "ref_produit": "BAT005", "prix": 800000, "date_creation": "2025-09-05", "stock": 20},
+        {"nom": "Batterie Gel 200Ah", "ref_produit": "BAT006", "prix": 1050000, "date_creation": "2025-09-06", "stock": 17},
+        {"nom": "Batterie Lithium 100Ah", "ref_produit": "BAT007", "prix": 2000000, "date_creation": "2025-09-07", "stock": 20},
+        {"nom": "Batterie Lithium 200Ah", "ref_produit": "BAT008", "prix": 3800000, "date_creation": "2025-09-08", "stock": 12}
+    ]
+}
