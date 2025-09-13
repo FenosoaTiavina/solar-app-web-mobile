@@ -37,7 +37,7 @@ jobs:
 
       - name: Download APK
         run: |
-          wget -O my-app.apk ${{ steps.get_artifact.outputs.build_url }}
+          wget -O solarApp.apk ${{ steps.get_artifact.outputs.build_url }}
 
       - name: Create GitHub Release
         id: create_release
@@ -54,6 +54,6 @@ jobs:
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./my-app.apk
-          asset_name: my-app.apk
+          asset_path: ./solarApp.apk
+          asset_name: solarApp.apk
           asset_content_type: application/vnd.android.package-archive
